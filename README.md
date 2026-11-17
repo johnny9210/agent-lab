@@ -29,6 +29,7 @@ Codex에서 에이전트 하나로 일을 시켜 보고, 담당 에이전트(TOM
 | `mail/` | 실습 4에서 쓰는 받은 메일 12통과 메일 처리 기준 |
 | `.codex/agents/` | 담당 에이전트 TOML을 넣는 곳. 처음에는 비어 있습니다 |
 | `.codex/config.toml` | 동시에 띄울 수 있는 담당 수 |
+| `.agents/skills/` | 스킬을 넣는 곳. 처음에는 비어 있습니다 |
 | `originals/`, `templates/` | 가져와서 고칠 원본 TOML 2개, 담당 에이전트 빈 틀 |
 | `plan/`, `research/`, `review/` | 결과 파일이 저장되는 곳 |
 | `answers/` | 막혔을 때 보는 예시 답안 |
