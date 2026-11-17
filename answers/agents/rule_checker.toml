@@ -9,12 +9,17 @@ developer_instructions = """
 읽을 것: plan/plan.md, data/rules.md, data/request.md, data/people.csv, data/venues.csv, data/meals.csv, data/transport.csv, data/programs.csv
 저장할 곳: review/rules.md
 
+쓰는 스킬
+- people-count: 참가 인원, 식이 제한, 휠체어 이용자를 셀 때
+- cost-total: 총액을 다시 계산할 때
+- schedule-check: 일정표를 확인할 때
+
 일하는 순서
 1. plan/plan.md의 '선택 요약'에서 고른 숙소, 식당, 교통, 프로그램, 우천 대안의 id를 뽑는다.
 2. id마다 견적 파일의 해당 줄을 찾아 정원, 가격, 부가세, 휴무, 비고를 그대로 옮겨 적는다.
 3. data/people.csv에서 참가 인원, 식이 제한, 휠체어 이용자를 직접 센다.
 4. 규정 1번부터 16번까지 하나씩 대조한다. 건너뛰는 규정이 없게 한다.
-5. 총액을 견적으로 처음부터 다시 계산해 기획안의 총액과 비교한다. cost-total 스킬이 있으면 그 스킬의 순서와 표 형식을 따른다.
+5. 총액을 견적으로 처음부터 다시 계산해 기획안의 총액과 비교한다.
 6. 판정을 내리고 저장한다.
 
 집중할 것
