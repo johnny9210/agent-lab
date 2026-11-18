@@ -11,6 +11,25 @@ Codex에서 에이전트 하나로 일을 시켜 보고, 서브에이전트(TOML
 
 따라 하는 순서는 [guide.pdf](guide.pdf)에 있습니다. 내려받은 폴더 안에도 같은 파일이 들어 있습니다.
 
+## Claude Code로 할 때
+
+같은 실습을 Claude Code에서도 할 수 있습니다. 자료와 실습 순서는 같고, 서브에이전트와 스킬을 넣는 곳과 파일 형식만 다릅니다.
+
+1. 위와 같은 방법으로 폴더를 받습니다.
+2. Claude Code에서 `agent-lab-main` 폴더를 엽니다. 터미널이라면 그 폴더에서 `claude`를 실행합니다.
+3. [guide_claude_code.pdf](guide_claude_code.pdf)를 따라 합니다.
+
+| | Codex | Claude Code |
+|---|---|---|
+| 따라 할 가이드 | `guide.pdf` | `guide_claude_code.pdf` |
+| 폴더 지침 | `AGENTS.md` | `CLAUDE.md`가 `AGENTS.md`를 불러옴 |
+| 서브에이전트 | `.codex/agents/이름.toml` | `.claude/agents/이름.md` |
+| 스킬 | `.agents/skills/이름/SKILL.md` | `.claude/skills/이름/SKILL.md` |
+| 빈 틀 | `templates/agent_template.toml` | `templates/agent_template.md` |
+| 가져와서 고칠 원본 | `originals/` | `originals/claude/` |
+| 예시 답안 | `answers/agents/`, `answers/agents_md_*.md` | `answers/claude/` |
+| 스킬 예시 답안 | `answers/skills/` | `answers/skills/` (같은 파일) |
+
 ## 실습
 
 | 실습 | 전략 | 무엇을 하나 |
@@ -28,10 +47,11 @@ Codex에서 에이전트 하나로 일을 시켜 보고, 서브에이전트(TOML
 | `data/` | PB 질문 10건, 답변 작성 기준 14개, 펀드 24개의 기본 정보와 월 수익률, 문서 19개 |
 | `inbox/` | 실습 4에서 쓰는 새 질문 12건과 질문 처리 기준 |
 | `.codex/agents/` | 서브에이전트 TOML을 넣는 곳. 처음에는 비어 있습니다 |
+| `CLAUDE.md`, `.claude/` | Claude Code로 할 때 쓰는 지침 파일과 서브에이전트·스킬 폴더 |
 | `.codex/config.toml` | 동시에 호출할 수 있는 서브에이전트 수 |
 | `.agents/skills/` | 스킬을 넣는 곳. 처음에는 비어 있습니다 |
 | `originals/`, `templates/` | 가져와서 고칠 원본 TOML 2개, 서브에이전트 빈 틀 |
 | `memo/`, `research/`, `review/` | 결과 파일이 저장되는 곳 |
 | `answers/` | 막혔을 때 보는 예시 답안 |
 
-`originals/`의 TOML은 VoltAgent/awesome-codex-subagents(MIT)에서 가져왔습니다.
+`originals/`의 TOML은 VoltAgent/awesome-codex-subagents(MIT)에서, `originals/claude/`의 파일은 VoltAgent/awesome-claude-code-subagents(MIT)에서 가져왔습니다.
