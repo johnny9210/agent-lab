@@ -4,6 +4,5 @@
 
 @AGENTS.md
 
-- 서브에이전트는 `.claude/agents/`에, 스킬은 `.claude/skills/`에 넣는다.
-- `.codex/`, `.agents/`, `guide.pdf`는 같은 실습의 Codex용 파일이다. 열지 않는다.
-- `guide_claude_code.pdf`는 사용자가 시킬 때만 연다.
+- 서브에이전트는 `.claude/agents/`에, 스킬은 `.claude/skills/`에 있다. `AGENTS.md`에 적힌 서브에이전트 이름의 밑줄(_)은 붙임표(-)로 읽는다. 예: `answer_writer`는 `answer-writer`.
+- `.codex/`, `.agents/`는 같은 실습의 Codex용 파일이다. 열지 않는다.
