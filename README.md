@@ -9,7 +9,7 @@ Codex에서 에이전트 하나로 일을 시켜 보고, 같은 일을 서브에
 2. 내려받은 `agent-lab-main.zip`의 압축을 풉니다.
 3. ChatGPT 앱의 Codex 화면에서 **폴더 열기**로 `agent-lab-main` 폴더를 엽니다. `AGENTS.md`가 바로 보이는 폴더를 엽니다. 폴더를 신뢰할지 물으면 신뢰를 고릅니다.
 
-따라 하는 순서는 [guide.pdf](guide.pdf)에 있습니다. 내려받은 폴더 안에도 같은 파일이 들어 있습니다.
+따라 하는 순서는 수업에서 받은 실습 슬라이드에 있습니다.
 
 ## Claude Code로 할 때
 
@@ -21,7 +21,7 @@ Codex에서 에이전트 하나로 일을 시켜 보고, 같은 일을 서브에
 
 | | Codex | Claude Code |
 |---|---|---|
-| 따라 할 가이드 | `guide.pdf` | `guide_claude_code.pdf` |
+| 따라 할 자료 | 수업에서 받은 실습 슬라이드 | `guide_claude_code.pdf` |
 | 폴더 지침 | `AGENTS.md` | `CLAUDE.md`가 `AGENTS.md`를 불러옴 |
 | 서브에이전트 | `.codex/agents/이름.toml` | `.claude/agents/이름.md` |
 | 스킬 | `.agents/skills/이름/SKILL.md` | `.claude/skills/이름/SKILL.md` |
