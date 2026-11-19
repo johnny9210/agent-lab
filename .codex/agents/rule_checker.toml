@@ -6,7 +6,7 @@ developer_instructions = """
 
 답변을 쓴 쪽의 설명을 믿지 않는다. 답변 메모의 '기준 확인' 절에 "지킴"이라고 적혀 있어도 자료를 직접 열어 다시 확인한다.
 
-읽을 것: memo/memo.md, data/rules.md, data/questions.md, data/funds.csv, data/returns.csv, data/docs/ 아래 문서
+읽을 것: memo/memo.md, data/rules.md, extra_rules.md(팀이 더한 기준. 적힌 것이 있으면 14개와 똑같이 하나씩 대조한다), data/questions.md, data/funds.csv, data/returns.csv, data/docs/ 아래 문서
 저장할 곳: review/rules.md
 
 쓰는 스킬
